@@ -1,0 +1,50 @@
+.nav{
+    z-index: 999;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.43) 5px 0 20px;
+}
+
+.logo{
+    background: White;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo h1{
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", "serif";
+}
+
+.logo .hed_2{
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", "serif";
+    color: #0482FA;
+}
+
+.navItems{
+    display: flex;
+    flex-direction: row;
+}
+
+.navItems a{
+    padding: 5px 20px;
+    align-self: center;
+    font-family: "Josefin Sans", "serif";
+}
+
+@media screen and (max-width: 700px) {
+    .nav h1{
+        font-size: 20px;
+    }
+    .nav a{
+        display: none;
+    }
+}
