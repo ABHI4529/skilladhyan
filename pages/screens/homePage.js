@@ -1,6 +1,7 @@
 import home from "../../styles/Home.module.css";
 import WhatWeOffer from "../Components/whatweoffer/whatweoffer";
 import Section_3 from "../Components/section_3/seaction_3";
+import Section_4 from "../Components/section_4/section_4";
 
 
 export default function HomePage(){
@@ -9,7 +10,7 @@ export default function HomePage(){
             <div className={home.division}>
                 <div className={home.title}>
                     <div className={home.component}/>
-                    <h1>Be The Most<br/>Confident Child</h1>
+                    <h1>Be The Most<br/>Confident<br/>Child</h1>
                     <p>Our aim is to make every child a fearless public
                         speaker so they can present their ideas, feelings
                         and point of view to people without any hesitation
@@ -31,6 +32,7 @@ export default function HomePage(){
             </div>
             <WhatWeOffer/>
             <Section_3/>
+            <Section_4/>
         </div>
     )
 }

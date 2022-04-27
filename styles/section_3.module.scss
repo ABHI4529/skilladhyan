@@ -46,7 +46,7 @@
   }
 
   .impact{
-    margin-top: 100px;
+    margin: 150px 150px 100px 150px;
     background-color: #173047;
     padding: 30px;
     border-radius: 10px;
@@ -85,33 +85,38 @@
 
 @media screen and (max-width: 700px){
   .section3{
+    padding: 10px;
     .section_3_1{
       flex-direction: column;
     }
     .impact{
       flex-direction: column;
+      margin: 150px 0 100px 0;
 
       h1{
         font-size: 40px;
         line-height: 40px;
+        align-self: center;
+        text-align: center;
       }
 
       .impactCard{
         margin-top: 20px;
-        margin-top: 20px;
-        align-self: start;
+        align-self: center;
         display: flex;
         flex-direction: column;
         h2{
+          margin-top: 100px;
           font-size: 20px;
-          align-self: start;
+          align-self: center;
+          text-align: center;
           color: #F3E848;
           font-family: "Inter", "sans-serif";
         }
         p{
           font-size: 20px;
           font-weight: bold;
-          align-self: start;
+          text-align: center;
           color: white;
           font-family: "Inter", "sans-serif";
         }
